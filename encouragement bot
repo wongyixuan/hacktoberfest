@@ -25,7 +25,7 @@ while True:
             counter += 1
 
     if counter == 0:
-        output = "Sorry I don't really understand. Please use different words?"
+        output = "Sorry I don't really understand. could you please use different words?"
 
     elif counter == 1:
         output = "It seems that you are feeling quite " + feelings_list[0] + ". However, do remember that "+ encouragement_list[0] + "! Hope you feel better :)"
